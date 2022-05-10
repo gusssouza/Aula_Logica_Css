@@ -1,23 +1,36 @@
 body {
     background: #404040;
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
 }
 
 h1 {
     color: #50ffa8;
+    
 }
  
 p {
     color: #9933FF;
+   
 }
 
-mark {
+.nome {
     background-color: #66FFB2; 
+  
 }
 
 b {
     color: black;
+  
 }
 
 i {
     color: white;
+ 
+}
+
+div {
+    color: white;
+    text-align: center;
 }
