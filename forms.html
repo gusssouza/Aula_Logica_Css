@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+
+    <h1>Formulários</h1>
+
+    <form action="">
+        
+        <label for="nome">Primeiro Nome:</label> 
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <label for="sobrenome">Segundo Nome:</label>
+        <br>
+        <input type="text" name="sobrenome">
+        <br><br>
+
+        <h2>O que você achou do site?</h2>
+        <input type="radio" name="opcao">Ruim <br>
+        <input type="radio" name="opcao">Mediano <br>
+        <input type="radio" name="opcao">Bom <br>
+        <input type="radio" name="opcao" checked>Muito bom 
+        <br><br>
+
+        <h2>Como está o tempo hoje?</h2>
+
+        <input type="radio" name="clime">Sol <br>
+        <input type="radio" name="clima">Chuva <br>
+        <input type="radio" name="clima" checked>Nevoeiro<br>
+        <br>
+
+    <h2>Cinema</h2>
+        <select name="secao">
+                <option value="cartaz">Em cartaz</option>
+                <option value="animacao" selected>Animação</option>
+                <option value="romance">Romance</option>
+        </select>
+        <label for="outro">Outro:</label>
+        <input type="text" name="outro">
+        <br><br>
+
+        <textarea name="areatexto" cols="50" rows="10" maxlength="180">Área de texto</textarea>
+        <br><br>
+
+        <table style=border:none;>
+        <tr>   
+        <td>Nome:</td>
+        <td>  <input type="text" name="nome2"></td>
+        </tr>
+        <tr>   
+        <td>Email:</td>
+        <td>  <input type="text" name="email"></td>
+        </tr>
+        </table>
+
+        <br>
+        
+        <input type="checkbox">Hoje está frio? <br>
+        <input type="checkbox">Hoje está quente?
+    <br> <br>
+        <!-- <input type="button" name="botao" value=" Botão"> -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> <!-- Limpa o formulário -->
+    </form>
+    
+
+</body>
+</html>
