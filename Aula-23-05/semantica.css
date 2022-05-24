@@ -1,0 +1,17 @@
+.myDiv {
+    color:rgb(0, 0, 0);
+    border: 5px outset rgb(46, 27, 24);
+    background-color: rgb(255, 94, 30);
+    text-align: center;
+}
+
+.myDiv2 {
+    color:rgb(0, 0, 0);
+    border: 5px double rgb(46, 27, 24);
+    background-color: rgb(101, 240, 101);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(215, 246, 255);
+}

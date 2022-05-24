@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(204, 250, 159);
+}
+
+article {
+    color: rgb(3, 119, 158);
+}
+
+header {
+    color: rgb(245, 58, 58);
+}
+
+footer {
+    color: rgb(37, 129, 0);
+}
+
+.Rodape {
+    color: rgb(0, 0, 0);
+}
