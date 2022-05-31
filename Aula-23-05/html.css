@@ -1,0 +1,16 @@
+
+body {
+    background-color: rgb(199, 229, 255);
+}
+
+p {
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+}
+
+#demo {
+    color:blue
+}
